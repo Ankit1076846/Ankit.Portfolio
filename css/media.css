@@ -1,0 +1,647 @@
+@media(max-width:1350PX) {
+    .f-row div h1 {
+        bottom: 30px;
+        font-size: 2.2rem;
+
+        left: 30px;
+    }
+
+    .s-row div h1 {
+        font-size: 2.2rem;
+        left: 30px;
+        bottom: 30px;
+    }
+
+
+    .contact-details{
+        padding: 0;
+    }
+
+    .phoneno {
+        display: flex
+    ;
+        gap: 16px;
+        letter-spacing: 1.2px;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1200PX) {
+
+
+
+
+    .banner-heading h1 {
+        font-size: 7vw;
+    }
+
+    .banner-pera {
+        margin-top: 5px;
+    }
+
+    .banner-pera .short-pera p {
+        width: 400px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-family: 'DegularDisplaylight';
+        color: #aaa;
+    }
+
+    .about-flex h2 {
+        color: #fff;
+        font-size: 1.5vw;
+
+    }
+
+    .about-text {
+        width: 79%;
+        line-height: 1.2;
+    }
+
+    #about img {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: -30px;
+    }
+
+
+
+    .p-heading {
+        gap: 9px;
+
+    }
+
+
+    .ProjectS .p-heading p {
+        font-size: 16px;
+        line-height: 25px;
+
+    }
+
+    .s-row div {
+
+        height: 41vh;
+    }
+
+    .project-mainheading .p-heading h1 {
+        font-size: 7.5vw;
+
+    }
+
+    .project-mainheading {
+        padding-bottom: 0;
+    }
+
+
+    .shrt-text .shrt-glow {
+        width: 60vw;
+        top: -39px;
+        position: absolute;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width:1100PX) {
+    .shrt-text h2 {
+
+        font-size: 3.8vw;
+        line-height: 4VW;
+        width: 68vw;
+
+    }
+
+
+    .mobile-box {
+        width: 19vw;
+    }
+
+
+    .p-flex {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .right-pera {
+
+        width: 100%;
+
+    }
+
+    .left-heading {
+        width: 100%;
+    }
+
+
+
+
+    .f-row div h1 {
+        bottom: 30px;
+        font-size: 1.5rem;
+
+        left: 30px;
+    }
+
+    .s-row div h1 {
+        font-size: 1.5rem;
+        left: 30px;
+        bottom: 30px;
+    }
+}
+
+@media(max-width:1000PX) {
+
+    .shrt-text .shrt-glow {
+        width: 60vw;
+        top: -17px;
+        position: absolute;
+    }
+
+
+
+    .banner-heading h4 {
+        color: #fff;
+        font-size: 23px;
+
+    }
+
+    .scroll-1 {
+        font-size: 3.5vw;
+    }
+
+
+    .banner-pera .short-pera p {
+        width: 350px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-family: 'DegularDisplayLight';
+        color: #aaa;
+    }
+
+
+    .banner-pera {
+        margin-top: 0;
+    }
+
+    #section_1 {
+        padding-bottom: 150px;
+    }
+
+    .locker__image {
+        position: relative;
+        grid-column: 1 / 8;
+    }
+
+    .button {
+        padding: 18px 21px;
+    }
+
+    .locker__section h3 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+}
+
+
+
+@media(max-width:900px) {
+
+    .short-pera img {
+        display: none;
+    }
+
+    .banner-pera .short-pera p {
+        width: 100%;
+    }
+
+    .banner-pera svg {
+        width: 80%;
+
+    }
+
+    .h-line {
+        width: 1px;
+        height: 41px;
+        background-color: #ffffff63;
+    }
+
+    .banner-heading h1 {
+        font-size: 10vw;
+    }
+
+    .banner-heading h4 {
+        color: #fff;
+        font-size: 23px;
+
+    }
+
+
+    #about img {
+        width: 100%;
+        bottom: -21px;
+    }
+
+    .banner-pera .short-pera p {
+        width: 100%;
+        line-height: 25px;
+        letter-spacing: 2px;
+        color: #aaa;
+    }
+
+
+    .banner-pera {
+        margin-top: 0;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    #section_1 {
+        padding-bottom: 150px;
+    }
+
+    .button {
+        padding: 18px 21px;
+    }
+
+
+    .f-row div h1 {
+        bottom: 30px;
+        font-size: 1.2rem;
+
+        left: 20px;
+    }
+
+    .s-row div h1 {
+        font-size: 1.2rem;
+        left: 20px;
+        bottom: 30px;
+    }
+
+
+    .about-flex {
+        gap: 24px;
+        flex-direction: column;
+
+    }
+
+    .about-flex h2 {
+        font-size: 2vw;
+    }
+
+    .about-text {
+
+        font-size: 4.5vw;
+        width: 100%;
+        /* font-size: 3vw; */
+        width: 100%;
+    }
+
+    .ProjectS .p-heading h1 {
+
+        line-height: 80px;
+    }
+
+    .locker {
+        display: none;
+    }
+
+    .ProjectS {
+        width: 100%;
+
+    }
+
+    .locker-mobile {
+        display: block;
+
+
+    }
+
+    .design {
+        margin-top: 50px;
+    }
+
+    .d-box {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .d-box img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .description {
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .description h3 {
+        font-size: 24px;
+        font-family: DegularDisplayMedium;
+        line-height: 30px;
+    }
+
+    .description p {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #aaa;
+        letter-spacing: 1.5px;
+        font-family: DegularDisplayLight;
+
+
+    }
+
+    .ProjectS .p-heading h1 {
+        font-size: 10vw;
+    }
+
+
+
+    .footer-maincontent {
+        display: flex;
+        gap: 44px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+
+
+
+    .s-row div {
+        height: 28vh;
+    }
+
+
+
+
+    .my-details {
+        width: 100%;
+    }
+
+    .my-contact {
+        width: 100%;
+    }
+
+    .last-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 181px;
+        background: url(../img/footerbgca.png) no-repeat;
+        background-position: center;
+        background-size: contain;
+        letter-spacing: 2px;
+        font-size: 22px;
+    }
+}
+
+
+
+
+@media(max-width:700px) {
+
+    .animetion {
+        right: -39px;
+        top: -40px;
+        width: 120px;}
+
+    .shrt-text .shrt-glow {
+        width: 80vw;
+        top: 12px;
+    }
+
+
+    .shrt-text {
+
+        padding: 0;
+    }
+
+
+    .shrt-text h2 {
+        
+        width: 80vw;
+        font-size: 4vw;
+        line-height: 4.2VW;
+    }
+    .shrt-text h2 span {
+        font-family: "Instrument Serif", serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 4vw;
+        line-height: 4.5vw;}
+
+
+    .mobile-box {
+        width: 28vw;
+    }
+
+    .f-row {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .f-row div {
+        width: 100%;
+    }
+
+
+
+    .f-row div h1 {
+        bottom: 30px;
+        font-size: 5vw;
+
+        left: 30px;
+    }
+
+    .s-row div h1 {
+        font-size: 5vw;
+        left: 30px;
+        bottom: 30px;
+    }
+
+
+    .s-row {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .s-row div {
+
+        width: 100%;
+        height: auto;
+    }
+
+    .s-row div video {
+        height: auto;
+        width: 100%;
+        object-fit: fill;
+    }
+
+
+    .my-details h3 {
+        font-size: 6vw;
+    }
+
+    .my-details h5 {
+        font-size: 20px;
+
+        font-family: 'DegularDisplayLighter';
+    }
+
+    .banner-pera .short-pera p {
+        width: 100% !important;
+    }
+
+    .banner-pera {
+
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .h-line {
+        width: 2px;
+        height: 61px;
+        background-color: #ffffff63;
+    }
+
+    .banner-heading h1 {
+        font-size: 12vw;
+    }
+
+    .scroll-text {
+        display: flex;
+        padding: 8px;
+        overflow-y: hidden;
+        overflow-x: auto;
+        border-top: 1px solid #868e792c;
+        border-bottom: 1px solid #868e792c;
+        white-space: nowrap;
+        /* background-color: #039c3d; */
+    }
+
+    .scroll-1 {
+        text-transform: uppercase;
+        animation: scroll 10s linear infinite;
+        display: flex;
+        align-items: center;
+        font-size: 3.5vw;
+        font-weight: 900;
+        animation-play-state: running;
+    }
+
+
+
+    .about-text {
+        font-size: 4.8vw;
+    }
+
+
+    .about-flex h2 {
+        font-size: 3vw;
+    }
+
+}
+
+
+
+@media(max-width:550px) {
+
+
+    #about {
+        height: 29vh;
+    }
+
+    #about img {
+        display: none;
+    }
+
+    .phoneno {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+
+        gap: 10px;
+    }
+
+    .contact-details {
+        padding: 0px;
+    }
+
+    .icon-circle {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .right-pera {
+        text-indent: 50px;
+        font-family: DegularDisplayRegular;
+        /* width: 60%; */
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 1.3px;
+    }
+
+}
+
+
+@media(max-width:500px) {
+
+
+
+    .mobile-box {
+        width: 35vw;
+    }
+
+
+
+
+
+    .banner-pera {
+
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+
+    .banner-heading h1 {
+        font-size: 14vw !important;
+
+        line-height: 99px;
+    }
+
+    .banner-pera .short-pera p {
+        width: 100%;
+        line-height: 23px;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-family: 'DegularDisplayLight';
+        color: #aaa;
+    }
+
+    .text_button a {
+        text-decoration: none;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: 'DegularDisplayLight';
+        color: #fff;
+    }
+
+
+}

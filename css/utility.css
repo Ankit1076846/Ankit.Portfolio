@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Instrument+Serif:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+
+    scroll-behavior: smooth;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------scroll bar--------------- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.205);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #191919;
+}
+
+/* ---------------scroll bar--------------- */
+
+body {
+    width: 100vw;
+    /* background-color: #050505; */
+
+    overflow-x: hidden;
+}
+
+#main {
+    width: 100vw;
+    background-color: #050505;
+    overflow-x: hidden;
+    /* position: relative; */
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+
+}
+
+
+@font-face {
+    font-family: DegularDisplayBold;
+    src: url(../font/fonnts.com-DegularDisplayDemo-Bold.otf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: DegularDisplayMedium;
+    src: url(../font/fonnts.com-DegularDisplayDemo-Medium.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: DegularDisplayRegular;
+    src: url(../font/fonnts.com-DegularDisplayDemo-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: DegularDisplayLight;
+    src: url(../font/fonnts.com-DegularDisplayDemo-Light.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: DegularDisplayLighter;
+    src: url(../font/fonnts.com-DegularDisplayDemo-Thin.otf);
+    font-weight: lighter;
+}
+
+
+
+
+/*----------------- nav bar ------------------*/
+
+nav {
+    width: 100%;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav button {
+    font-family: 'DegularDisplayRegular';
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: #ffffff15;
+    border: 1px solid #868e7979;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.menu {
+    background-color: #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-control {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+/*----------------- End nav bar ------------------*/
+
+/* ..................footer..............0 */
+
+footer {
+    background-color: #050505;
+    color: #fff;
+}
+
+.footer-maincontent {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-details {
+    width: 50%;
+}
+
+.my-contact {
+    width: 50%;
+}
+
+.button {
+    background-color: #ffffff63;
+    /* width: 100%; */
+    /* padding: 12px 30px; */
+    color: #fff;
+}
+
+
+.contact-details {
+    font-family: DegularDisplayRegular;
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 0 56px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon-circle {
+    width: 35px;
+    font-size: 25px;
+    height: 35px;
+    background-color: #868E79;
+    border-radius: 50%;
+
+}
+
+.phoneno {
+    display: flex;
+    gap: 16px;
+    letter-spacing: 1.2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+
+
+.footer-bg {
+    background: url(../img/footerbgimage.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    /* background-color: #fff; */
+    /* border-radius: 50px 50px 0px 0px; */
+    /* background: #050505; */
+    /* background: linear-gradient(180deg, rgb(26, 26, 26) 0%, rgba(3, 3, 3, 1) 26%, rgba(5, 5, 5, 1) 100%); */
+
+}
+
+.footer-button {
+    width: 100%;
+    display: flex;
+    padding: 18px 25px;
+    border-radius: 8px;
+    background-color: #ffffff0e;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bg hr {
+    height: .5px;
+    margin: 50px;
+    /* width: 1px; */
+    opacity: .1;
+}
+
+
+.footer-button a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: DegularDisplayRegular;
+}
+
+.my-details h3 {
+    color: #868E79;
+    font-family: DegularDisplayMedium;
+    font-size: 3.5vw;
+}
+
+.my-details h5 {
+    font-family: DegularDisplayLighter;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.my-details img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+.last-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    /* background: url(../img/footerbgca.png) no-repeat; */
+    background-position: center;
+    background-size: contain;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+
+.type {
+    font-family: 'DegularDisplayLighter';
+}
+
