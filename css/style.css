@@ -5,9 +5,10 @@
         position: absolute;
         background-color: #050505;
     }
-button{
-    cursor: pointer;
-}
+
+    button {
+        cursor: pointer;
+    }
 
     a {
         text-decoration: none;
@@ -17,7 +18,6 @@ button{
 
 
     #section_1 {
-
         width: 100vw;
         height: auto;
         padding-bottom: 200px;
@@ -863,7 +863,7 @@ button{
     }
 
     .f-row div img {
-    
+
         width: 100%;
         object-fit: cover;
         transition: all .9s;
@@ -1150,7 +1150,7 @@ button{
         width: 46vw;
         letter-spacing: 2%;
         letter-spacing: 1.2px;
-    }   
+    }
 
     .shrt-text h2 span {
         font-family: "Instrument Serif", serif;
@@ -1158,7 +1158,7 @@ button{
         font-style: italic;
         font-size: 3vw;
         line-height: 4vw;
-    
+
 
 
     }
