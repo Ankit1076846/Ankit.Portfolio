@@ -170,14 +170,37 @@ footer {
 }
 
 .icon-circle {
-    width: 35px;
+    width: 50px;
     font-size: 25px;
-    height: 35px;
-    background-color: #868E79;
+    height: 50px;
+    background-color: #ffffff12;
     border-radius: 50%;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}   
 
+.icon-circle i {
+    font-size: 22px;
+    color: white;
 }
 
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.footer-button{
+    color: #fff;
+    gap: 20px;
+    font-size: 20px;
+    font-family: DegularDisplayMedium;
+}
 .phoneno {
     display: flex;
     gap: 16px;
