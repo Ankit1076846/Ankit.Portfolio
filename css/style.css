@@ -350,6 +350,7 @@
         overflow-y: hidden;
         overflow-x: auto;
         border-top: 1px solid #868e792c;
+        text-transform: capitalize;
         border-bottom: 1px solid #868e792c;
         white-space: nowrap;
         /* background-color: #039c3d; */
@@ -365,7 +366,7 @@
 
         padding: 0 50px;
         color: #fff;
-        letter-spacing: 4px;
+        letter-spacing: 1px;
         font-family: "DegularDisplayLighter";
     }
 
@@ -457,8 +458,8 @@
 
     .about-text {
         text-indent: 3vw;
-        letter-spacing: 1px;
-        font-family: 'DegularDisplayMedium';
+        letter-spacing: 1.5px;
+        font-family: 'DegularDisplayLight';
         font-size: 2.3vw;
         color: #fff;
         width: 69%;
@@ -870,9 +871,9 @@
     }
 
     .f-row div img {
-
-        width: 100%;
-        object-fit: cover;
+        height: 100%;
+        /* width: 100%; */
+        /* position: sticky; */
         transition: all .9s;
     }
 
@@ -932,6 +933,9 @@
     .project-1 .image-box {
         width: 100%;
         height: 60vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
         overflow: hidden;
         border-radius: 20px;
     }
@@ -1214,12 +1218,14 @@
     }
 
     .shrt-text .shrt-glow {
-        top: -102px;
+        top: -232px;
+        width: 140%;
         position: absolute;
+        z-index: 2;
     }
 
     .animetion {
-        right: -29px;
+        right: -76px;
         top: -40px;
         width: 150px;
         height: auto;
@@ -1247,4 +1253,20 @@
         width: -webkit-fill-available;
         opacity: .1;
         background-color: #fff;
+    }
+
+    .profile {
+        width: 160px;
+        position: relative;
+        z-index: 100;
+        height: 160px;
+        border-radius: 100%;
+        background-color: #fff;
+        overflow: hidden;
+        outline: 10px solid #00000038;
+    }
+
+    .profile img {
+        width: 100%;
+        height: auto;
     }
