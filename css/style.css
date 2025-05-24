@@ -871,8 +871,8 @@
     }
 
     .f-row div img {
-        height: 100%;
-        /* width: 100%; */
+        height: auto;
+        width: 100%;
         /* position: sticky; */
         transition: all .9s;
     }

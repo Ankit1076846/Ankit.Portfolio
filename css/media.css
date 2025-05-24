@@ -47,6 +47,15 @@
 
         font-size: 12px;
     }
+
+    
+    .f-row div img {
+        height: 100%;
+        width: auto;
+        /* position: sticky; */
+        transition: all .9s;
+    }
+
 }
 
 
