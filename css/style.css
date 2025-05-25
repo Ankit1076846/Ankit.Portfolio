@@ -974,6 +974,7 @@
 
     .tag-div {
         display: flex;
+        color: #050505;
         align-items: center;
         gap: 4px;
         justify-content: space-between;
@@ -1091,7 +1092,7 @@
     .scroll-2 {
         margin-top: 100px;
         text-transform: uppercase;
-        animation: scroll 5s linear infinite;
+        animation: scroll 17s linear infinite;
         transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
         display: flex;
         font-size: 2.5vw;
